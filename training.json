@@ -1,0 +1,58 @@
+[
+    {
+        "sequence": [
+            "PICK",
+            "KILL_GREEN",
+            "ROLL",
+            "DRY",
+            "DRY"
+        ]
+    },
+    {
+        "sequence": [
+            "PICK",
+            "WITHER",
+            "WITHER",
+            "DRY",
+            "DRY"
+        ]
+    },
+    {
+        "sequence": [
+            "PICK",
+            "WITHER",
+            "KILL_GREEN",
+            "DRY"
+        ]
+    },
+    {
+        "sequence": [
+            "PICK",
+            "WITHER",
+            "SHAKE_GREEN",
+            "KILL_GREEN",
+            "ROLL",
+            "DRY"
+        ]
+    },
+    {
+        "sequence": [
+            "PICK",
+            "WITHER",
+            "ROLL",
+            "OXIDIZE",
+            "DRY"
+        ]
+    },
+    {
+        "sequence": [
+            "PICK",
+            "WITHER",
+            "KILL_GREEN",
+            "ROLL",
+            "SUN_DRY",
+            "PILE_FERMENT",
+            "DRY"
+        ]
+    }
+]
