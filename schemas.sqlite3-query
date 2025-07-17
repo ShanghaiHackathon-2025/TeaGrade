@@ -1,0 +1,19 @@
+-- database: ./main.db
+
+CREATE TABLE procedures (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    tea_name TEXT,
+    label_phenol REAL,
+    label_caffeine REAL,
+    label_price REAL
+);
+
+CREATE TABLE steps (
+    procedure_id INTEGER,
+    step_idx INTEGER,
+    operation TEXT,
+    param1 REAL,
+    param2 REAL,
+    param3 REAL,
+    FOREIGN KEY(procedure_id) REFERENCES procedures(id)
+);
